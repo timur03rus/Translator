@@ -47,7 +47,7 @@
         android:scrollHorizontally="false"
         android:scrollbars="vertical"
         android:hint="@string/write_word"
-        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/languages1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="@id/changeLanguages" />
@@ -61,7 +61,7 @@
         android:textSize="19sp"
         app:layout_constraintStart_toStartOf="@id/languages2"
         app:layout_constraintEnd_toStartOf="@id/addToFavourites1"
-        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/languages1"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
     <ImageButton
